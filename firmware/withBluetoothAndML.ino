@@ -249,7 +249,7 @@ void loop() {
   SerialBT.println(" Hz");
 
 
-  // === TREMBOR CLASSIFICATION LOGIC ===
+  // classification logic
   float rms_y = calcRMS(gyWindow);
   float classification;
   if (rms_y <= 37.33f) {
